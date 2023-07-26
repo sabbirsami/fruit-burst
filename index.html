@@ -27,8 +27,64 @@
         ></script>
     </head>
     <body>
-        <h1 class="text-6xl">
-            connect to repo <i class="fa-brands fa-facebook"></i>
-        </h1>
+        <!-- HEADER SECTION START   -->
+        <header>
+            <div class="container mx-auto py-5">
+                <div
+                    class="navbar py-4 px-6 text-white bg-rose-500 rounded-full"
+                >
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16"
+                                    />
+                                </svg>
+                            </label>
+                            <ul
+                                tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                            >
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Shop</a></li>
+                                <li><a href="">All Fruits</a></li>
+                            </ul>
+                        </div>
+                        <ul class="menu menu-horizontal text-lg px-1">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">All Fruits</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <div class="flex items-center gap-4 justify-center">
+                            <img src="./asset/images/logo.png" alt="" />
+                            <h2 class="text-3xl font-semibold">Fruit Burst</h2>
+                        </div>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="form-control w-72">
+                            <input
+                                type="text"
+                                placeholder="Search"
+                                class="input input-bordered md:w-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
     </body>
 </html>
